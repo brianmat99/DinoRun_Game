@@ -15,15 +15,15 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background
-background = pygame.image.load("background.png")
+background = pygame.image.load("images/background.png")
 
 # Tile and Icon
 pygame.display.set_caption("Dino Run")
-icon = pygame.image.load('001-dinosaur.png')
+icon = pygame.image.load('images/001-dinosaur.png')
 pygame.display.set_icon(icon)
 
 # Player
-playerImg = pygame.image.load("dinosaur.png")
+playerImg = pygame.image.load("images/dinosaur.png")
 playerX = 370
 playerY = 480
 playerX_change = 0
